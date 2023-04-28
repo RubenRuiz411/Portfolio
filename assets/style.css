@@ -1,0 +1,137 @@
+/* background color / text color for entire page */
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+
+
+/* root options (only have font) */
+:root {
+    --base-font: 'American Typewriter', serif;
+}
+
+
+/* header allignment and font settings */
+header {
+    font-family:var(--base-font);
+    align-items: center;
+    display: top;
+    text-align: center;
+}    
+
+
+/* display settings, font size and alignment settings for header h1 */    
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    align-items: right;
+    display: inline-block;    
+}
+
+/* header nav list settings  */
+header nav ul li {    
+    float: right;  
+    margin-left: 15px;
+    list-style: none;
+}
+
+
+/* font size for paragraphs */
+p {
+    font-size:25px;
+}
+
+
+/* text settings for work-section */
+.work-section {
+    font-family:var(--base-font);
+    float: right;
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+/* display settings for work-section images */
+.work-section img {
+    width: 100%; 
+}
+
+
+/* section class settings for about me section */
+.about-me {
+    font-family:var(--base-font);
+    float: left;
+    width: 25%;
+}
+
+
+/* section class settings for about me section headers*/
+.about-me h2 {
+    text-align: right;
+    width: 85%;
+}
+
+
+/* text settings for about me paragraphs */
+.about-me p{
+    margin-bottom: 20px;
+    font-family:var(--base-font);
+    font-size: 75%;
+    width: 85%;
+    text-align: right;
+}
+
+
+/* display settings for about me section */
+#about-me {
+    display:left;
+    width: 50vw;
+}
+
+
+/* display settings for contact section */
+#contact {
+    display:left;
+    width: 50vw;
+}
+
+
+/* display settings for work section */
+#work {
+    display:left;
+    width: 50vw;
+}
+
+
+/* class is how the avatar is displayed*/
+.hero {
+    height: 150px;
+    width: 150px;
+    background-image:url("./images/memoji-chef-kiss.png") ;
+    background-size: cover;
+    position: relative;
+    left: 30%;
+}
+
+
+/* display settings for personal information section (about me area) */
+.personal-information {
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* display settings for main */
+main {
+    display:flex;
+}
+
+
+/* display settings for main work section (the larger work image/horiseon) */
+#main-work-section {
+    width: 100%;
+}
+
+
